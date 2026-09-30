@@ -1,0 +1,182 @@
+* {
+        box-sizing: border-box;
+}
+
+body {
+        padding-top: 4em;
+}
+
+h1 {
+        color: black;
+        text-align: center;
+}
+
+#form_container {
+        width: 50%;
+        min-width: 500px;
+        margin: 0 auto;
+        background-color: #C7C7C7;
+        border-radius: 15px;
+}
+
+h1 ~ form {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 5%;
+}
+
+form>.form_input {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 5%;
+        width: 100%;
+}
+
+.form_input>label {
+        font-weight: bold;
+        width: 30%;
+        text-align: right;
+        margin-left: 20%;
+        margin-right: 10%;
+}
+
+.form_input>input {
+        margin-right: 30%;
+        width: 30%
+}
+label + textarea {
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        width: 30%;
+        height: 5em;
+        resize: none;
+        margin-right: 30%;
+}
+
+.form_input>button {
+        background-color: #1F477D;
+        border-radius: 15px;
+        border: none;
+        color: white;
+        margin-bottom: 2%;
+}
+
+.form_input>button:hover {
+        color: green;
+        background-color: white;
+        border: 1%;
+        border-radius: 15px;
+}
+
+.form_input>input[type="file"] {
+        background-color: grey;
+        border-radius: 15px;
+        border: none;
+        color: white;
+}
+
+header {
+        top: 0;
+        left: 0;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        background-color: #a2ccea;
+        position: fixed;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+}
+
+a {
+        color: black;
+        text-decoration: none;
+}
+
+
+
+header ul {
+        margin-left: 5%;
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+        list-style: none;
+}
+
+ul>li {
+        margin-right: 2%;
+        margin-left: 2%;
+}
+
+header a {
+        margin-right: 5%;
+}
+
+@media (max-width:768px) {
+        body{
+                padding-top: 10em;
+                width: 100%;
+        }
+        #form_container {
+                padding: 2%;
+                width: 90%;
+                margin: 0 auto;
+                background-color: #C7C7C7;
+                border-radius: 15px;
+                min-width: 50%;
+        }
+
+        form>.form_input {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 100%;
+                margin-bottom: 15px;
+        }
+
+        .form_input>input,
+        .form_input>textarea,
+        .form_input>button {
+                width: 70%;
+                margin-left: 15%;
+        }
+        .form_input button{
+                margin-bottom: 1%;
+        }
+
+        .form_input>label {
+                width: 70%;
+                text-align: center;
+                margin-left: 15%;
+                margin-bottom: 1%;
+        }
+
+        header {
+                display: flex;
+                align-items: center;
+                flex-direction: column-reverse;
+        }
+
+        header ul {
+
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                align-items: center;
+                margin-left: 0%;
+                padding: 0;
+        }
+
+        ul>li {
+                margin-right: 0%;
+                margin-left: 0%;
+                width: 100%;
+                text-align: center;
+        }
+
+        header a {
+                margin-right: 0%;
+        }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AddPost</title>
+    <link rel="stylesheet" href="res/css/addPost.css" />
+    <link rel="icon" href="res/images/image.png">
+</head>
+
+<body>
+    <header class="header">
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">addPost</a></li>
+        </ul>
+
+        <a class="logo" href="index.html"><img src="res/images/image.png" width="50" height="50" alt="My picture"></a>
+    </header>
+
+    <main id="main-content">
+        <div id="form_container">
+            <h1>ADD COMMENT</h1>
+            <form method="POST" action="index.html">
+                <div class="form_input">
+                    <label for="textarea-user">Post Body</label>
+                    <textarea type="text" name="textarea-user" id="textarea-user" value="" placeholder="textarea"></textarea>
+                </div>
+                <div class="form_input">
+                    <label for="fichier">Choisir un fichier</label>
+                    <input type="file" id="fichier" name="fichier">
+                </div>
+                <div class="form_input">
+                    <button id="submit" type="submit">Create Post</button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -17,6 +17,7 @@ h1 {
         margin: 0 auto;
         background-color: #C7C7C7;
         border-radius: 15px;
+        margin-top: 150px;
 }
 
 h1 ~ form {

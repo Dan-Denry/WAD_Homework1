@@ -15,6 +15,10 @@ header {
    /* background-color: grey;*/
    background-color: lightgray;
     padding: 15px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header a {
@@ -23,32 +27,44 @@ header a {
     display: block;
 }
 
-header:hover {
+header a:hover {
     background-color: gray;
     cursor: pointer;
 }
 
-nav {
+main {
     margin: auto;
     text-align: center;
    /* background-color: grey;*/
-   background-color: lightgray;
+   
     /*padding: 30px;*/
-    padding: 15px 30px 30px 30px;
+    /*padding: 15px 30px 30px 30px;
     border-radius: 8px;
-    width: 250px;
+    width: 250px;*/
 }
 
-nav strong, nav article {
-    margin: 8px 0;
-    display: block;
+.login-container {
+    background-color: lightgray;
+    padding: 30px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 350px;
+    margin: 40px auto;
 }
 
-nav br {
-    display: none;
+.login-container > h2 {
+    color: #333;
 }
 
-input[type="text"], input[type="password"] {
+.login-container a + p {
+    margin: 5px 0;
+}
+
+.login-container h2 ~ a {
+    color: blue;
+}
+
+input[type="email"], input[type="password"] {
     width: 100%;
    /* height: 15%;*/
     padding: 10px;
@@ -58,7 +74,7 @@ input[type="text"], input[type="password"] {
     box-sizing: border-box;
     font-size: 80%;
 }
-
+    
 #email {
     margin-bottom: 8px;
 }
@@ -83,17 +99,3 @@ input[type="submit"]:hover {
     background-color:#5383db;
 }
 
-/* 3. Child Selector: Targets direct children of <nav> */
-nav > strong {
-    color: #333;
-}
-
-/* 4. Adjacent Sibling Selector: Targets an article immediately following another */
-nav strong + article {
-    font-weight: bold;
-}
-
-/* 5. General Sibling Selector: Targets any article that comes after the first article */
-article ~ article {
-    opacity: 0.9;
-}

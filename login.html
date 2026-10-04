@@ -2,34 +2,35 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--- <link rel="icon" href="res/images/favicon.ico"> --->
     <link rel="stylesheet" href="res/css/login.css">
     <title>Login</title>
   </head>
   <body>
     <header>
+      <nav>
         <a href="index.html"><strong>Home</strong></a>
+      </nav>
+        
+
+        <a class="logo" href="index.html"><img src="res/images/image.png" width="50" height="50" alt="My picture"></a>
     </header>
 
-    <nav>   
-        <strong>Welcome to PostIt</strong>
-        <article><a href="">Create an account</a></article>
-        <article>or</article>
-        <article>Please log in</article>
+    <main>   
+       <div class="login-container">
+          <h2>Welcome to PostIt</h2>
+          <a href="#">Create an account</a>
+          <p>or</p>
+          <p>Please log in</p>
 
-        <form action="index.html">
-            <!-- <label for="email">Email</label> -->
-            <input type="text" id="email" name="email" placeholder="Email" required><br><br>
+          <form action="index.html">
+              <input type="email" id="email" name="email" placeholder="Email" required>
+              <input type="password" id="password" name="password" placeholder="Password" required>
+              <input type="submit" value="Log in"> 
+          </form>
 
-            <!-- <label for="password">Password</label> -->
-           <!--- <input type="text" id="password" name="password" placeholder="Password"><br><br> -->
-           <input type="password" id="password" name="password" placeholder="Password" required><br><br>
-
-            <input type="submit" value="Log in">
-        </form>
-
-        <article><a href="">Forgot password</a></article>
-    </nav>
+          <a href="#">Forget password</a>
+       </div>
+      </main>
 
   </body>
 </html>

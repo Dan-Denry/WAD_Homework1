@@ -124,6 +124,59 @@
     margin-top: 8px;
 }
 
+/*.user_dropdown {
+    display: none;
+}
+
+.logo:hover .user_dropdown {
+    display: block;
+}*/
+
+.user_menu {
+    position: relative;
+    display: inline-block;
+}
+
+.user_dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    padding: 12px 16px;
+
+    
+    flex-direction: column;
+    gap: 8px;
+
+    align-items: left;
+    border: 1px solid #646174;
+    background-color: #a49fc1;
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.user_dropdown .userbtn, .logoutbtn, .usermail {
+    background: none;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+    text-align: left;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.user_dropdown .userbtn:hover, .user_dropdown .logoutbtn:hover {
+    background-color: rgba(255,255,255, 0.25);
+}
+
+
+
+.user_profile:hover .user_dropdown {
+    /*display: block;*/
+    display: flex;
+}
+
 
 /* FOOTER */
 

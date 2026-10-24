@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "author": "Anna",
+        "text": "Hello Tartu",
+        "createdAt": "2026-10-22T14:30:00Z",
+        "image": null,
+        "likes": 5
+    },
+    {
+        "id": 2,
+        "author": "Mark",
+        "text": "Me at Tartu",
+        "createdAt": "2026-12-23T15:55:00Z",
+        "image": "res/images/TartuRaekoda.jpg",
+        "likes": 22
+    },
+    {
+        "id": 3,
+        "author": "Madis",
+        "text": "Where is everyone?",
+        "createdAt": "2026-11-20T17:00:00Z",
+        "image": null,
+        "likes": 1
+    },
+    {
+        "id": 4,
+        "author": "Kelli",
+        "text": "Wow! Just look at this!",
+        "createdAt": "2026-12-24T16:23:00Z",
+        "image": "res/images/TartuRaekoda2.jpg",
+        "likes": 89
+    },
+    {
+        "id": 5,
+        "author": "Indrek",
+        "text": "Update, everythings still the same",
+        "createdAt": "2026-09-14T09:00:00Z",
+        "image": null,
+        "likes": 14
+    },
+    {
+        "id": 6,
+        "author": "Eneli",
+        "text": "Just had a thought...",
+        "createdAt": "2026-08-21T17:34:00Z",
+        "image": null,
+        "likes": 63
+    },
+    {
+        "id": 7,
+        "author": "Miina",
+        "text": "ERM upside down house was so cool. Recomned it to all the families!",
+        "createdAt": "2026-06-20T13:26:00Z",
+        "image": "res/images/tagurpidiMaja.jpg",
+        "likes": 31
+    },
+    {
+        "id": 8,
+        "author": "ReelikaOlen",
+        "text": "Krempel Marry Popins pancakes are real jummy!",
+        "createdAt": "2026-09-28T10:14:00Z",
+        "image": "res/images/krempel.jpg",
+        "likes": 972
+    },
+    {
+        "id": 9,
+        "author": "Sannu13",
+        "text": "Tartu kinda mid. Not that many people, cool bars tho!",
+        "createdAt": "2026-04-09T22:56:00Z",
+        "image": null,
+        "likes": 2
+    },
+    {
+        "id": 10,
+        "author": "Koit",
+        "text": "Can't wait for winter anymore",
+        "createdAt": "2026-09-12T20:33:00Z",
+        "image": null,
+        "likes": 3
+    }
+]

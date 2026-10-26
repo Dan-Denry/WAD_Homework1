@@ -2,17 +2,37 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="res/css/index.css">-->
     <link rel="stylesheet" href="res/css/login.css">
+    <link rel="stylesheet" href="res/css/main.css">
     <title>Login</title>
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="header">
+      <!--<nav>
         <a href="index.html"><strong>Home</strong></a>
-      </nav>
+      </nav>-->
+
+      <nav>
+        <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="addPost.html">addPost</a></li>
+        </ul>
+        </nav>
         
 
-        <a class="logo" href="index.html"><img src="res/images/image.png" width="50" height="50" alt="My picture"></a>
+        <!--<a class="logo" href="index.html"><img src="res/images/image.png" width="50" height="50" alt="My picture"></a>-->
+        <div class="user_profile">
+             <a class="logo" href="index.html"><img src="res/images/me.png" width="50" height="50" alt="My picture"></a>
+
+        <div class="user_menu">
+            <div class="user_dropdown">
+                <button class="userbtn">John Doe</button>
+                <div class="usermail">john.doe@ut.ee</div>
+                <button class="logoutbtn">logout</button>
+            </div>
+        </div>
+        </div>
     </header>
 
     <main>   

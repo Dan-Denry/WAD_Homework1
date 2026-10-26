@@ -85,6 +85,11 @@
     align-items: center;
     gap: 10px;
 }
+.post-header > .author{
+    font-weight : bold;
+    text-align : center;
+    padding : 2%;
+}
 
 
 /* General sibling selector */

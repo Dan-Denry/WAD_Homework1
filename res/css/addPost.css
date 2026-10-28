@@ -1,21 +1,22 @@
-* {
+/** {
         box-sizing: border-box;
-}
+}*/
 
-body {
+/*body {
         padding-top: 4em;
-}
+}*/
 
-h1 {
+/*h1 {
         color: black;
         text-align: center;
-}
+}*/
 
 #form_container {
         width: 50%;
         min-width: 500px;
         margin: 0 auto;
-        background-color: #C7C7C7;
+        /*background-color: #C7C7C7;*/
+        background-color: rgb(236, 192, 115);
         border-radius: 15px;
         margin-top: 150px;
 }
@@ -79,7 +80,7 @@ label + textarea {
         color: white;
 }
 
-header {
+/*header {
         top: 0;
         left: 0;
         padding-top: .5em;
@@ -89,29 +90,29 @@ header {
         width: 100%;
         display: flex;
         justify-content: space-between;
-}
+}*/
 
-a {
+/*a {
         color: black;
         text-decoration: none;
-}
+}*/
 
 
 
-header ul {
+/*header ul {
         margin-left: 5%;
         display: flex;
         flex-direction: row;
         width: 40%;
         list-style: none;
-}
+}*/
 
-ul>li {
+/*ul>li {
         margin-right: 2%;
         margin-left: 2%;
-}
+}*/
 
-header a {
+/*header a {
         margin-right: 5%;
 }
 header li > a:hover{
@@ -119,6 +120,7 @@ header li > a:hover{
         padding : .5em;
         border-radius : 10px;
 }
+}*/
 
 @media (max-width:768px) {
         body{

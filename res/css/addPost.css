@@ -114,12 +114,15 @@ label + textarea {
 
 /*header a {
         margin-right: 5%;
+<<<<<<< HEAD
 }
 header li > a:hover{
         background-color: orange;
         padding : .5em;
         border-radius : 10px;
 }
+=======
+>>>>>>> kristjan
 }*/
 
 @media (max-width:768px) {

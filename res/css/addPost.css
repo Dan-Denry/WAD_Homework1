@@ -80,17 +80,16 @@ label + textarea {
         color: white;
 }
 
-/*header {
+#header {
         top: 0;
         left: 0;
         padding-top: .5em;
         padding-bottom: .5em;
-        background-color: #a2ccea;
         position: fixed;
         width: 100%;
         display: flex;
         justify-content: space-between;
-}*/
+}
 
 /*a {
         color: black;

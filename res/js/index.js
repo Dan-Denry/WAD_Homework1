@@ -1,5 +1,4 @@
 const endPointURL = "https://api.npoint.io/f1b0052ef46dcd1b147d"
-console.log("HELLO");
 /*fetch(endPointURL).then(response => {
         return response.json();
 })
@@ -16,7 +15,6 @@ fetch("./posts.json").then(response => {
         return response.json();
 })
         .then(data => {
-                console.log(data);
                 for (let i = 0; i < data.length; i++) {
                         appendPost(data[i]);
                 }
